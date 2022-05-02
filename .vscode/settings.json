@@ -1,0 +1,11 @@
+{
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+    "editor.colorDecorators": true,
+    "workbench.editor.decorations.badges": true,
+    "workbench.editor.decorations.colors": false,
+    "workbench.editor.focusRecentEditorAfterClose": true,
+    "workbench.colorCustomizations": {
+        "tab.inactiveForeground": "#798b70",
+        "tab.activeForeground": "#ffffe9",
+    }
+}

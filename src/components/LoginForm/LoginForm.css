@@ -1,0 +1,84 @@
+.error {
+    color: #cf0404;
+}
+
+form {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+/* this forms make background for login*/
+form:after {
+    content: '';
+    display: block;
+    position:absolute;
+    top: -1rem;
+    left: -5rem;
+    right: -5rem;
+    bottom: -1rem;
+    z-index: 1;
+    background-image: linear-gradient(to bottom right, #ff0055, #2d16ff);
+}
+
+form .form-inner {
+    position:relative;
+    display: block;
+    background-color: white;
+    padding: 30px;
+    z-index: 2;
+}
+
+form .form-inner h2 {
+    color: #888;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+form .form-inner .form-group {
+    display: block;
+    width: 300px;
+    margin-bottom: 15px;
+}
+.form-inner .form-group:focus-within label {
+    color:#8f00bb;
+    font-weight: 600;   
+}
+
+form .form-inner .form-group input {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    border: none;
+    transition: 0.4s;
+}
+
+form .form-inner .form-group input:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0);
+}
+
+.welcome {
+    width: 100%;
+    max-width: 480px;
+    background-color: white;
+    padding: 15px 30px;
+}
+
+.welcome h2 {
+    color: #888;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.welcome h2 span {
+    color: #FE4880;
+    font-weight: 600;
+}
+
